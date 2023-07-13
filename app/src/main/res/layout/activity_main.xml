@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <com.google.android.material.appbar.MaterialToolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:background="@color/design_default_color_on_primary"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/idEdtProductName"
+        android:layout_margin="10dp"
+        android:hint="Enter Product Name"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/idEdtProductDescription"
+        android:layout_margin="10dp"
+        android:hint="Enter Product Description"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/idEdtProductPrice"
+        android:layout_margin="10dp"
+        android:hint="Enter Product Price"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/idBtnAddProduct"
+        android:layout_margin="10dp"
+        android:text="Add Product"
+        android:textAllCaps="false"
+        style="@style/GreenText"
+        android:backgroundTint="@color/buttonColor"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/idBtnReadProducts"
+        android:layout_margin="10dp"
+        android:text="View All Products"
+        android:textAllCaps="false"
+        style="@style/GreenText"
+        android:backgroundTint="@color/buttonColor"/>
+
+</LinearLayout>

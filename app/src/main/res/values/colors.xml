@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<!--Generate color pallete with
+    #121d49
+    #302593
+    #7c43d0
+    #c98de2
+    #f5d6f5
+-->
+    <color name="colorPrimary">#121d49</color>
+    <color name="colorPrimaryDark">#302593</color>
+    <color name="colorAccent">#7c43d0</color>
+    <color name="buttonColor">#c98de2</color>
+    <color name="textColor">#f5d6f5</color>
+    <color name="blackColor">#1E1D1D</color>
+    <color name="whiteColor">#CCC6C6</color>
+    <color name="greyColor">#7E7C7C</color>
+    <color name="redColor">#D84545</color>
+    <color name="greenColor">#4CCA4C</color>
+    <color name="blueColor">#29298C</color>
+    <color name="yellowColor">#DCDC55</color>
+    <color name="cyanColor">#4ACFCF</color>
+
+
+
+</resources>
